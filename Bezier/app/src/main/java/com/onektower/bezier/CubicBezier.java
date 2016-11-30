@@ -59,8 +59,8 @@ public class CubicBezier extends View {
         height = h;
         dataPoint1 = new PointF(width / 2 - 300, height / 2);
         dataPoint2 = new PointF(width / 2 + 300, height / 2);
-        controlPoint1 = new PointF(width / 2 - 300, height / 2 - 100);
-        controlPoint2 = new PointF(width / 2 - 300, height / 2 - 100);
+        controlPoint1 = new PointF(width / 2 - 300, height / 2 - 300);
+        controlPoint2 = new PointF(width / 2 + 300, height / 2 - 300);
     }
 
     @Override
