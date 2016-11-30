@@ -24,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(quadIntent);
             }
         });
+        Button cubic = (Button) findViewById(R.id.cubic);
+        cubic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cubicIntent = new Intent(MainActivity.this, CubicActivity.class);
+                startActivity(cubicIntent);
+            }
+        });
     }
 }
