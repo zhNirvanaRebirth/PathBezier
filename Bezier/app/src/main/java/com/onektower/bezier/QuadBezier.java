@@ -44,7 +44,7 @@ public class QuadBezier extends View {
         bezierPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         bezierPaint.setColor(Color.RED);
         bezierPaint.setStyle(Paint.Style.STROKE);
-        bezierPaint.setStrokeWidth(5);
+        bezierPaint.setStrokeWidth(8);
 
         linePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         linePaint.setColor(Color.GRAY);
